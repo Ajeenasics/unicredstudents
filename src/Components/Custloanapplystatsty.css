@@ -1,0 +1,108 @@
+/* Custloanapplystatsty.css */
+/* Customer-Loan-ApplyNow-ApplicationStatus Style */
+.section2,.section3{
+    background-color: #f5f2f7;
+}
+.custloanapplypt1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #e7c4fe, #f3ecf8);
+    padding-left: 150px;
+    height: 330px;
+
+}
+.custloanapplypt3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #f5f2f7;
+    border: 2px solid #cac8cc;
+    border-radius: 20px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 20px;
+
+
+}
+#custimg{
+    padding-left: 450px;
+    height: 300px;
+    position:absolute;
+    top:30px;
+}
+.custloanptcol1{
+    padding-left: 30px;
+    font-weight: bold;
+    
+}
+.custloanptcol2{
+    padding-left: 150px;
+    font-weight: bold;
+}
+h3{
+    color:purple;
+}
+#applybtn1{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+}
+#submitbtn2{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+#loantypebox,#amtrequiredbox{
+    width: 450px;
+}
+#purposeloanbox{
+    width: 1015px;
+    height:60px;
+    
+}
+.formpt2{
+    padding-left: 70px;
+}
+.formborder2{
+    padding-right: 70px;
+}
+.radiobtn{
+    background-color: #e5c3fb;
+    border-radius: 10px;
+    color:#d18ffd;
+}
+.datalabel{
+    font-size: 15px;
+    font-weight: 1px;
+    color:#6e6e6e;
+}
+.data{
+    font-weight:600;
+    font-size: 20px;
+}
+/* .section2{
+    background-color: #f5f2f7;
+} */
+.custloanapplypt2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #f5f2f7;
+    border: 2px solid #cac8cc;
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 20px;
+
+
+}
+.formpt1{
+    padding-left: 40px;
+} 
+.formborder1{
+    padding-right: 40px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    padding-left: 20px;
+    column-width: 180px;
+}
