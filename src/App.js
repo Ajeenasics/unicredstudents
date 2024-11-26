@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import CustLoanDetails from './Component/CustLoanDetails';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <CustLoanDetails/>
+    </div>
   );
 }
 
