@@ -1,0 +1,95 @@
+.CustIcon{
+position: absolute;
+  right: 48px; 
+  top: 245px;
+    
+}
+.customer{
+    
+        position: relative;
+        top: -10px;
+        margin-bottom: 5px;
+    
+    
+}
+.CustLoan{
+     padding-top: 260px;
+}
+.horizontal-card{
+    border-radius: 20px !important;
+    overflow: hidden;
+    background-color: #F5F2F7;
+    position: relative;
+}
+.Custcontainer1{
+    border-radius: 20px !important;
+}
+
+button{
+   position: relative;
+   right:210px;
+   top: 15px;
+   width: auto;
+   padding: 0px 38px 3px;
+   border-radius: 20px!important;
+   background-color: #BF5DFF;
+   color: white;
+   border: none;
+}
+.CustIconArrow{
+    position: absolute;
+    left:496px;
+    bottom:30px;
+    color: white;
+    
+}
+.circle-container {
+    display: flex;
+    align-items: center;
+    gap: 290px; 
+    position: absolute;
+    margin-top: -115px;
+    left: 190px;
+    align-items: start;
+}
+
+.custLoancircle1 {
+    width: 60px;
+    height: 60px;
+    background-color: #BF5DFF;
+    border-radius: 50%;
+    justify-content: center;    
+    align-items: center;         
+    font-size: 19px;             
+    color: white;                
+    text-align: center;
+    line-height: 53px;  
+}
+.custLoancircle2 {
+    width: 60px;
+    height: 60px;
+    background-color: #E4D9EC;
+    border-radius: 50%;
+    justify-content: center;    
+    align-items: center;         
+    font-size: 19px;             
+    color: black;                
+    text-align: center;
+    line-height: 53px; 
+}
+.custLoancircle3 {
+    width: 60px;
+    height: 60px;
+    background-color: #E4D9EC;
+    border-radius: 50%;
+    justify-content: center;    
+    align-items: center;         
+    font-size: 19px;             
+    color: black;                
+    text-align: center;
+    line-height: 53px; 
+}
+
+
+
+
