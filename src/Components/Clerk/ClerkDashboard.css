@@ -1,7 +1,7 @@
-.fullbody{
+.clerkDashboardfullbody{
     background-color: rgba(128, 128, 128, 0.082);
 }
-.piechart {
+.clerkDashboardpiechart {
     background-color:white;
     margin-left: 50px;
     margin-right: 25px;
@@ -9,7 +9,7 @@
     border-radius: 10px;
 
 }
-.piechart1{
+.clerkDashboardpiechart1{
     margin-left: 25px;
     margin-right: 50px;
     background-color:white;
@@ -47,21 +47,21 @@
     font-size: large;
 }
 
-.subline {
+.clerkDashboardsubline {
     color: grey;
     font-weight: 400;
     font-size: medium;
 }
 
-.rowclr {
+.clerkDashboardrowclr {
     background-color: rgba(190, 93, 255, 0.041);
 }
 
-#eyeicon {
+#clerkDashboardeyeicon {
     color: rgba(191, 93, 255, 1);
     font-size: larger;
 }
-.viewuser{
+.clerkDashboardviewuser{
     padding-top: 35px;
     padding-left: 50px;
 }
@@ -69,37 +69,41 @@
     padding-top: 25px;
     padding-bottom: 25px;    
 }
-#clerkcolor{
+#clerkDashboardclerkcolor{
     color: rgba(191, 93, 255, 1);
 }
-.viewDetails{
+.clerkDashboardTableDataviewDetails{
     color: rgba(191, 93, 255, 1);
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    font-size: large;
 }
-.piechartdetails{
+.clerkDashboardpiechartdetails{
     padding-left: 50px;
 }
-#clerkLoanButton{
+#clerkDashboardclerkLoanButton{
     margin-top: 10px;
     margin-left: 50px;
     color: rgba(191, 93, 255, 1);
     background-color: white;
     border-color: rgba(191, 93, 255, 1);
 }
-#clerkCreditcardButton{
+#clerkDashboardclerkCreditcardButton{
     margin-top: 10px;
 
     background-color: rgba(191, 93, 255, 1);
     color: white;
     border-color: rgba(191, 93, 255, 1);
 }
-#clerkLifeinduranceButton{
+#clerkDashboardclerkLifeinduranceButton{
     margin-top: 10px;
 
     color: rgba(191, 93, 255, 1);
     background-color: white;
     border-color: rgba(191, 93, 255, 1);
 }
-.piechartimg{
+.clerkDashboardpiechartimg{
     padding-bottom: 25px;
     padding-top: 25px;
 
