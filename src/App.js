@@ -1,3 +1,4 @@
+
 import './App.css';
 import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 
@@ -13,7 +14,7 @@ import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 function App() {
   return (
     <div>
-      <ClerkDashboard/>
+
 
       <Custloanapply/>
       {/* <Custloanapplystatus/> */}
@@ -21,6 +22,9 @@ function App() {
       {/* <Custcreditapplystatus/> */}
 
       <CustLoanEmplDetails/>
+
+
+      <ClerkDashboard/>
 
     </div>
   );
