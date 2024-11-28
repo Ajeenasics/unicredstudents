@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <ClerkDashboard/>
+    </div>
   );
 }
 

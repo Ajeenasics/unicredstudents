@@ -1,0 +1,106 @@
+.fullbody{
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.piechart {
+    background-color:white;
+    margin-left: 50px;
+    margin-right: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+.piechart1{
+    margin-left: 25px;
+    margin-right: 50px;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+
+
+
+
+th {
+    background-color: rgba(191, 93, 255, 1);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+
+}
+table {
+    position: relative;
+    top: 25px;
+    left: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px; 
+    
+
+}
+td {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.subline {
+    color: grey;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.rowclr {
+    background-color: rgba(190, 93, 255, 0.041);
+}
+
+#eyeicon {
+    color: rgba(191, 93, 255, 1);
+    font-size: larger;
+}
+.viewuser{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+.clerkdashboard{
+    padding-top: 25px;
+    padding-bottom: 25px;    
+}
+#clerkcolor{
+    color: rgba(191, 93, 255, 1);
+}
+.viewDetails{
+    color: rgba(191, 93, 255, 1);
+}
+.piechartdetails{
+    padding-left: 50px;
+}
+#clerkLoanButton{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgba(191, 93, 255, 1);
+    background-color: white;
+    border-color: rgba(191, 93, 255, 1);
+}
+#clerkCreditcardButton{
+    margin-top: 10px;
+
+    background-color: rgba(191, 93, 255, 1);
+    color: white;
+    border-color: rgba(191, 93, 255, 1);
+}
+#clerkLifeinduranceButton{
+    margin-top: 10px;
+
+    color: rgba(191, 93, 255, 1);
+    background-color: white;
+    border-color: rgba(191, 93, 255, 1);
+}
+.piechartimg{
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
