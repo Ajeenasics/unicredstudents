@@ -15,7 +15,6 @@ function App() {
   return (
     <div>
 
-      <ClerkDashboard/>
 
       <Custloanapply/>
       {/* <Custloanapplystatus/> */}
@@ -24,6 +23,8 @@ function App() {
 
       <CustLoanEmplDetails/>
 
+
+      <ClerkDashboard/>
 
     </div>
   );
