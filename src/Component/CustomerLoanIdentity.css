@@ -1,12 +1,5 @@
 
-    /* .customer{
-        
-            position: relative;
-            top: -10px;
-            margin-bottom: 5px;
-        
-        
-    } */
+    
     .CustLoanIdentity{
          padding-top: 260px;
     }
@@ -20,10 +13,10 @@
         border-radius: 20px !important;
     }
     
-    button{
+    #Identity{
        position: relative;
        right:210px;
-       top: 125px;
+       top: 120px;
        width: auto;
        padding: 0px 38px 3px;
        border-radius: 20px!important;
@@ -34,7 +27,7 @@
     .CustIconArrow{
         position: absolute;
         left:498px;
-        bottom:30px;
+        bottom:35px;
         color: white;
         
     }
@@ -68,7 +61,7 @@
         justify-content: center;    
         align-items: center;         
         font-size: 19px;             
-        color: black;                
+        color: white;                
         text-align: center;
         line-height: 53px; 
     }

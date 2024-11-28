@@ -7,13 +7,17 @@ import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 import Custloanapply from './Components/Custloanapply';
 // import Custloanapplystatus from './Components/Custloanapplystatus';
 import CustLoanDetails from './Component/CustLoanDetails';
-import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
-import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
+// import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
+// import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 
 
 function App() {
   return (
     <div>
+
+      <CustLoanDetails
+      />
+
 
 
       <Custloanapply/>
@@ -25,6 +29,7 @@ function App() {
 
 
       <ClerkDashboard/>
+
 
     </div>
   );

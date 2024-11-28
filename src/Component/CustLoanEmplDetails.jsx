@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { MdOutlineFileUpload } from "react-icons/md";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import './CustomerLoanIdentity.css';
+import './CustLoanEmplDetails.css';
 
 function CustLoanEmplDetails() {
     const [form, setForm] = useState({
@@ -27,30 +26,24 @@ function CustLoanEmplDetails() {
             </div>
 
             <center>
-                <Card className="horizontal-card" style={{ width: '900px', height: '510px' }}>
+                <Card className="horizontal-card" style={{ width: '900px', height: '400px' }}>
                     <Card.Body>
                         <div className="customerform">
                             <Container className="Custcontainer1">
-                                <h5 style={{ color: "#9A00FF" }}>Identity</h5>
+                                <h5 style={{ color: "#9A00FF" }}>EmploymentDetails</h5>
                                 <Row>
                                     <Col>
                                         <div className="formstyle">
                                             <Container className="container2">
                                                 <Row>
                                                     <Col>
-                                                        <label >PancardNUmber</label>
+                                                        <label >Name Of Employer</label>
                                                         <input className='form-control' type="text" name="Name" onChange={store} /><br />
-                                                        <label >PanCard</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon1'>
-                                                            <MdOutlineFileUpload />
-                                                            </div>
-                                                            <label>AadarNumber</label>
+                                                        <label >Work Experience</label>
+                                                        <input type="text" name="profile"  onChange={store} className='form-control' />
+                                                            <label>Position</label>
                                                             <input type="text" name="number" onChange={store} className='form-control' />
-                                                        <label >Aadhaar</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon2'>
-                                                            <MdOutlineFileUpload /></div>
+                                                        
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -61,25 +54,19 @@ function CustLoanEmplDetails() {
                                             <Container className="container2">
                                                 <Row>
                                                     <Col>
-                                                    <label >Voter'sId</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon3'>
-                                                            <MdOutlineFileUpload /></div><br/>
-                                                            <label >DrivingLiscence</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon4'>
-                                                            <MdOutlineFileUpload /></div>
-                                                        <label >Passport</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
+                                                    <label >Employer Contact Number</label>
+                                                        <input type="text" name="profile"  onChange={store} className='form-control' /><br/>
+                                                            <label >Salary</label>
+                                                        <input type="text" name="profile"  onChange={store} className='form-control' />
+                                                        <label >Salary Slip</label>
+                                                        <input type="text" name="profile" placeholder='0' onChange={store} className='form-control' />
                                                         <div className='CustIcon'>
                                                             <MdOutlineFileUpload />
                                                         </div>
                                                     </Col>
                                                     <center>
-                                                        <button>Continue</button>
-                                                        <div className='CustIconArrow'>
-                                                            <FaLongArrowAltRight />
-                                                        </div>
+                                                        <button id='Employ'>Confirm</button>
+                                                       
                                                     </center>
                                                 </Row>
                                             </Container>
