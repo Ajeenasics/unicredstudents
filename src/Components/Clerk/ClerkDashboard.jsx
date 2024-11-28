@@ -10,40 +10,40 @@ import "./ClerkDashboard.css"
 
 function ClerkDashboard() {
   return (
-    <div className='fullbody'>
-        <h3 className='clerkdashboard'><span id='clerkcolor'>CLERK</span>DASHBOARD</h3>
+    <div className='clerkDashboardfullbody'>
+        <h3 className='clerkdashboard'><span id='clerkDashboardclerkcolor'>CLERK</span>DASHBOARD</h3>
     <div>
         <div className='row'>
-            <div className='col piechart'>
+            <div className='col clerkDashboardpiechart'>
                 <h5>Users Review</h5>
-                <img src={userReviewPieChart} alt="PieChart" className='piechartimg'  />
-                <img src={userReviewPieChartDetails} alt="Details" className='piechartdetails' />
+                <img src={userReviewPieChart} alt="PieChart" className='clerkDashboardpiechartimg'  />
+                <img src={userReviewPieChartDetails} alt="Details" className='clerkDashboardpiechartdetails' />
 
             </div> 
 
         
-            <div className='col piechart1'>
+            <div className='col clerkDashboardpiechart1'>
                 <div className='row'>
                     <div className='col'>
-                    <Button id='clerkLoanButton'>Loan</Button>
+                    <Button id='clerkDashboardclerkLoanButton'>Loan</Button>
                     </div>
                     <div className='col'>
-                    <Button id='clerkCreditcardButton'>Credit Card</Button>
+                    <Button id='clerkDashboardclerkCreditcardButton'>Credit Card</Button>
                     </div>
                     <div className='col'>
-                    <Button id='clerkLifeinduranceButton'>Life Insurance</Button>
+                    <Button id='clerkDashboardclerkLifeinduranceButton'>Life Insurance</Button>
                     </div>
                 </div>
                 <div className='row'>
             <div className='col'>
-                <img src={userReviewPieChart1} alt="PieChart" className='piechartimg' />
-                <img src={userReviewPieChartDetails1} alt="Details" className='piechartdetails' />
+                <img src={userReviewPieChart1} alt="PieChart" className='clerkDashboardpiechartimg' />
+                <img src={userReviewPieChartDetails1} alt="Details" className='clerkDashboardpiechartdetails' />
             </div> 
             </div>
             </div>                        
 
         </div>
-        <div className='col viewuser'>
+        <div className='col clerkDashboardviewuser'>
             <h4>View Users</h4>
         </div>
         {/* table start */}
@@ -61,79 +61,79 @@ function ClerkDashboard() {
                         </tr>
                         <tr>
                             <td className='clerkDashboardTableData'>1.</td>
-                            <td className='clerkDashboardTableData'>Akhila <br /> <span className='subline'>akhila123@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Akhila <br /> <span className='clerkDashboardsubline'>akhila123@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td><a href="" className='clerkDashboardTableDataviewDetails '>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
-                        <tr className='rowclr'>
+                        <tr className='clerkDashboardrowclr'>
                             <td className='clerkDashboardTableData'>2.</td>
-                            <td className='clerkDashboardTableData'>Prajash <br /> <span className='subline'>prajash@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Prajash <br /> <span className='clerkDashboardsubline'>prajash@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td><a href="" className='clerkDashboardTableDataviewDetails'>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
                         <tr>
                             <td  className='clerkDashboardTableData'>3.</td>
-                            <td className='clerkDashboardTableData'>Vimal <br /> <span className='subline'>vimal123@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Vimal <br /> <span className='clerkDashboardsubline'>vimal123@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td><a href="" className='clerkDashboardTableDataviewDetails '>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
-                        <tr className='rowclr'>
+                        <tr className='clerkDashboardrowclr'>
                             <td className='clerkDashboardTableData'>4.</td>
-                            <td className='clerkDashboardTableData'>Anushia <br /> <span className='subline'>anushia@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Anushia <br /> <span className='clerkDashboardsubline'>anushia@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td><a href="" className='clerkDashboardTableDataviewDetails '>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
                         <tr>
                             <td className='clerkDashboardTableData'>5.</td>
-                            <td className='clerkDashboardTableData'>Akhila <br /> <span className='subline'>akhila123@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Akhila <br /> <span className='clerkDashboardsubline'>akhila123@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td><a href="" className='clerkDashboardTableDataviewDetails '>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
-                        <tr className='rowclr'>
+                        <tr className='clerkDashboardrowclr'>
                             <td className='clerkDashboardTableData'>6.</td>
-                            <td className='clerkDashboardTableData'>Prajash <br /> <span className='subline'>prajash@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Prajash <br /> <span className='clerkDashboardsubline'>prajash@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td ><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td ><a href="" className='clerkDashboardTableDataviewDetails '>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
                         <tr>
                             <td className='clerkDashboardTableData'>7.</td>
-                            <td className='clerkDashboardTableData'>Vimal <br /> <span className='subline'>vimal123@gmail.com</span></td>
+                            <td className='clerkDashboardTableData'>Vimal <br /> <span className='clerkDashboardsubline'>vimal123@gmail.com</span></td>
                             <td className='clerkDashboardTableData'>1234567890</td>
                             <td className='clerkDashboardTableData'>1234 1234 1224</td>
                             <td className='clerkDashboardTableData'>AD1234H67</td>
                             <td className='clerkDashboardTableData'>$25,000/-</td>
-                            <td><a href="" className='viewDetails clerkDashboardTableData'>View Details</a>  </td>
-                            <td className='clerkDashboardTableData'><span id='eyeicon'><IoEye /></span></td>
+                            <td><a href="" className='clerkDashboardTableDataviewDetails '>View Details</a>  </td>
+                            <td className='clerkDashboardTableData'><span id='clerkDashboardeyeicon'><IoEye /></span></td>
 
                         </tr>
                     </table>
