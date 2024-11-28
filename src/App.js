@@ -1,5 +1,6 @@
-//import logo from './logo.svg';
+
 import './App.css';
+import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 
 //import Custcreditapply from './Components/Custcreditapply';
 //import Custcreditapplystatus from './Components/Custcreditapplystatus';
@@ -14,12 +15,15 @@ function App() {
   return (
     <div>
 
+      <ClerkDashboard/>
+
       <Custloanapply/>
       {/* <Custloanapplystatus/> */}
       {/* <Custcreditapply/> */}
       {/* <Custcreditapplystatus/> */}
 
       <CustLoanEmplDetails/>
+
 
     </div>
   );
