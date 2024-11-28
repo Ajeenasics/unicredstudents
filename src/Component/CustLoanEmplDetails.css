@@ -1,12 +1,5 @@
 
-    /* .customer{
-        
-            position: relative;
-            top: -10px;
-            margin-bottom: 5px;
-        
-        
-    } */
+   
     .CustLoanIdentity{
         padding-top: 260px;
    }
@@ -20,10 +13,10 @@
        border-radius: 20px !important;
    }
    
-   button{
+   #Employ{
       position: relative;
       right:210px;
-      top: 125px;
+      top: 20px;
       width: auto;
       padding: 0px 38px 3px;
       border-radius: 20px!important;
@@ -31,13 +24,7 @@
       color: white;
       border: none;
    }
-   .CustIconArrow{
-       position: absolute;
-       left:498px;
-       bottom:30px;
-       color: white;
-       
-   }
+   
    .circle-container {
        display: flex;
        align-items: center;
@@ -68,19 +55,19 @@
        justify-content: center;    
        align-items: center;         
        font-size: 19px;             
-       color: black;                
+       color: white;                
        text-align: center;
        line-height: 53px; 
    }
    .custLoancircle3 {
        width: 60px;
        height: 60px;
-       background-color: #E4D9EC;
+       background-color: #BF5DFF;
        border-radius: 50%;
        justify-content: center;    
        align-items: center;         
        font-size: 19px;             
-       color: black;                
+       color: white;                
        text-align: center;
        line-height: 53px; 
    }

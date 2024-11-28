@@ -79,7 +79,7 @@ function CustLoanDetails() {
                                                         </div>
                                                     </Col>
                                                     <center>
-                                                        <button>Continue</button>
+                                                        <button id='Cust'>Continue</button>
                                                         <div className='CustIconArrow'>
                                                             <FaLongArrowAltRight />
                                                         </div>

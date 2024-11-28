@@ -77,7 +77,7 @@ function CustomerLoanIdentity() {
                                                         </div>
                                                     </Col>
                                                     <center>
-                                                        <button>Continue</button>
+                                                        <button id='Identity'>Continue</button>
                                                         <div className='CustIconArrow'>
                                                             <FaLongArrowAltRight />
                                                         </div>
