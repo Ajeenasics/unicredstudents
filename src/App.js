@@ -1,6 +1,7 @@
 
 import './App.css';
 import ClerkDashboard from './Components/Clerk/ClerkDashboard';
+import ManagerDashboard from './Components/Manager/ManagerDashboard';
 
 //import Custcreditapply from './Components/Custcreditapply';
 //import Custcreditapplystatus from './Components/Custcreditapplystatus';
@@ -25,6 +26,7 @@ function App() {
 
 
       <ClerkDashboard/>
+      <ManagerDashboard/>
 
     </div>
   );
