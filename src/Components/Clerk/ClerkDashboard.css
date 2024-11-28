@@ -21,7 +21,7 @@
 
 
 
-th {
+.clerkDashboardTableHead {
     background-color: rgba(191, 93, 255, 1);
     color: white;
     padding: 10px;
@@ -29,7 +29,7 @@ th {
     font-weight: 500;
 
 }
-table {
+#clerkDashBoardTable{
     position: relative;
     top: 25px;
     left: 150px;
@@ -40,7 +40,7 @@ table {
     
 
 }
-td {
+.clerkDashboardTableData{
     text-align: center;
     padding: 10px;
     font-weight: 500;
