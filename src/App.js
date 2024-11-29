@@ -1,5 +1,7 @@
 
 import './App.css';
+
+=======
 import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 
 //import Custcreditapply from './Components/Custcreditapply';
@@ -9,16 +11,15 @@ import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 
 // import CustLoanDetails from './Component/CustLoanDetails';
 
+
 import CustLoanDetails from './Component/CustLoanDetails';
 
 // import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
 // import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 
-
 function App() {
   return (
     <div>
-
       <CustLoanDetails
       />
 

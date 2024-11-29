@@ -1,15 +1,13 @@
-
-   
-    .CustLoanIdentity{
+.CustLoanEmplDetails{
         padding-top: 260px;
    }
-   .horizontal-card{
+   .CustLoanEmplDetailshorizontalcard{
        border-radius: 20px !important;
        overflow: hidden;
        background-color: #F5F2F7;
        position: relative;
    }
-   .Custcontainer1{
+   .CustLoanEmplDetailsCustcontainer1{
        border-radius: 20px !important;
    }
    
@@ -25,7 +23,7 @@
       border: none;
    }
    
-   .circle-container {
+   .CustLoanEmplDetailscirclecontainer {
        display: flex;
        align-items: center;
        gap: 290px; 
@@ -35,76 +33,88 @@
        align-items: start;
    }
    
-   .custLoancircle1 {
-       width: 60px;
-       height: 60px;
-       background-color: #BF5DFF;
-       border-radius: 50%;
-       justify-content: center;    
-       align-items: center;         
-       font-size: 19px;             
-       color: white;                
-       text-align: center;
-       line-height: 53px;  
+   .CustLoanEmplDetailscircle1 {
+    width: 60px;
+    height: 60px;
+    background-color: #BF5DFF;
+    border-radius: 50%;
+    justify-content: center;    
+    align-items: center;         
+    font-size: 19px;             
+    color: white;                
+    text-align: center;
+    line-height: 53px;  
+    position: relative;
+    left: 50px;
    }
-   .custLoancircle2 {
-       width: 60px;
-       height: 60px;
-       background-color: #BF5DFF;
-       border-radius: 50%;
-       justify-content: center;    
-       align-items: center;         
-       font-size: 19px;             
-       color: white;                
-       text-align: center;
-       line-height: 53px; 
+   .CustLoanEmplDetailscircle2 {
+    width: 60px;
+    height: 60px;
+    background-color: #BF5DFF;
+    border-radius: 50%;
+    justify-content: center;    
+    align-items: center;         
+    font-size: 19px;             
+    color: white;                
+    text-align: center;
+    line-height: 53px;  
+    position: relative;
+    right:530px;
    }
-   .custLoancircle3 {
-       width: 60px;
-       height: 60px;
-       background-color: #BF5DFF;
-       border-radius: 50%;
-       justify-content: center;    
-       align-items: center;         
-       font-size: 19px;             
-       color: white;                
-       text-align: center;
-       line-height: 53px; 
+   .CustLoanEmplDetailscircle3 {
+    width: 60px;
+    height: 60px;
+    background-color: #BF5DFF;
+    border-radius: 50%;
+    justify-content: center;    
+    align-items: center;         
+    font-size: 19px;             
+    color: white;                
+    text-align: center;
+    line-height: 53px; 
+    position: relative;
+    right:1150px;
    }
-   .form-control {
-       margin-bottom: 25px; 
-       padding: 10px; 
-       border-radius: 5px; 
+   .CustLoanEmplDetailsformcontrol {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+    
    }
-   .CustIcon{
+   .CustLoanEmplDetailsCustIcon{
        position: absolute;
          right: 48px; 
          top: 278px;
            
        }
-.CustIcon1{
-   position: absolute;
-   bottom: 293px;
-   left:400px
-}
-.CustIcon2{
-   position: absolute;
-   bottom: 120px;
-   left:400px
-}
-.CustIcon3{
-   position: absolute;
-   bottom: 405px;
-   left:835px
-}
-.CustIcon4{
-   position: absolute;
-   bottom: 294px;
-   left:835px
-}
-   
-      
-   
-   
+       .CustLoanEmplDetailsInput1{
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: #BF5DFF;
+        position: relative;
+        right:240px;
+        width: 290px;
+     } 
+     .CustLoanEmplDetailsInput2{
+         border-top: 0px;
+         border-left: 0px;
+         border-right: 0px;
+         border-color: #BF5DFF;
+         position: relative;
+         right:820px;
+         width: 290px;
+     
+     }
+            
+         
+         
+         
+         
    
    
