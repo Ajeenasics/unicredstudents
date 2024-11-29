@@ -17,32 +17,34 @@ function CustLoanEmplDetails() {
     };
   return (
     <div>
-        <div className='CustLoanIdentity'>
-            <div className="circle-container">
-                <div className="custLoancircle1">1</div>
-                <div className="custLoancircle2">2</div>
-                <div className="custLoancircle3">3</div>
-
+        <div className='CustLoanEmplDetails'>
+        <div className="CustLoanEmplDetailscirclecontainer">
+                <div className="CustLoanEmplDetailscircle1">1</div>
+                <input className='CustLoanEmplDetailsInput1'/>
+                <div className="CustLoanEmplDetailscircle2">2</div>
+                <input  className='CustLoanEmplDetailsInput2'/>
+                <div className="CustLoanEmplDetailscircle3">3</div>
+                
             </div>
 
             <center>
-                <Card className="horizontal-card" style={{ width: '900px', height: '400px' }}>
+                <Card className="CustLoanEmplDetailshorizontalcard" style={{ width: '900px', height: '400px' }}>
                     <Card.Body>
-                        <div className="customerform">
-                            <Container className="Custcontainer1">
+                        <div className="CustLoanEmplDetailscustomerform">
+                            <Container className="CustLoanEmplDetailsCustcontainer1">
                                 <h5 style={{ color: "#9A00FF" }}>EmploymentDetails</h5>
                                 <Row>
                                     <Col>
-                                        <div className="formstyle">
-                                            <Container className="container2">
+                                        <div className="CustLoanEmplDetailsformstyle">
+                                            <Container className="CustLoanEmplDetailscontainer2">
                                                 <Row>
                                                     <Col>
                                                         <label >Name Of Employer</label>
-                                                        <input className='form-control' type="text" name="Name" onChange={store} /><br />
+                                                        <input className='CustLoanEmplDetailsformcontrol' type="text" name="Name" onChange={store} /><br />
                                                         <label >Work Experience</label>
-                                                        <input type="text" name="profile"  onChange={store} className='form-control' />
+                                                        <input type="text" name="profile"  onChange={store} className='CustLoanEmplDetailsformcontrol' />
                                                             <label>Position</label>
-                                                            <input type="text" name="number" onChange={store} className='form-control' />
+                                                            <input type="text" name="number" onChange={store} className='CustLoanEmplDetailsformcontrol' />
                                                         
                                                     </Col>
                                                 </Row>
@@ -55,12 +57,12 @@ function CustLoanEmplDetails() {
                                                 <Row>
                                                     <Col>
                                                     <label >Employer Contact Number</label>
-                                                        <input type="text" name="profile"  onChange={store} className='form-control' /><br/>
+                                                        <input type="text" name="profile"  onChange={store} className='CustLoanEmplDetailsformcontrol' /><br/>
                                                             <label >Salary</label>
-                                                        <input type="text" name="profile"  onChange={store} className='form-control' />
+                                                        <input type="text" name="profile"  onChange={store} className='CustLoanEmplDetailsformcontrol' />
                                                         <label >Salary Slip</label>
-                                                        <input type="text" name="profile" placeholder='0' onChange={store} className='form-control' />
-                                                        <div className='CustIcon'>
+                                                        <input type="text" name="profile" placeholder='0' onChange={store} className='CustLoanEmplDetailsformcontrol' />
+                                                        <div className='CustLoanEmplDetailsCustIcon'>
                                                             <MdOutlineFileUpload />
                                                         </div>
                                                     </Col>

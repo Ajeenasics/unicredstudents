@@ -3,8 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import { MdOutlineFileUpload } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import './CustLoanDetails.css';
-
-function CustLoanDetails() {
+function CustCredDetails() {
     const [form, setForm] = useState({
         Email: "",
         Contact: "",
@@ -20,33 +19,30 @@ function CustLoanDetails() {
     const update = (e) => {
         console.log(form);
     };
+  return (
+    <div>
+        <div className='CustLoan'>
+            <div className="circle-container">
+                <div className="custLoancircle1">1</div>
+                <div className="custLoancircle2">2</div>
+                <div className="custLoancircle3">3</div>
 
-    return (
-        <div className='CustLoanPersonalDetails'>
-            <div className="CustLoanPersonalDetailscirclecontainer">
-                <div className="CustLoanPersonalDetailscircle1">1</div>
-                <input className='CustLoanPersonalDetailsInput1'/>
-                <div className="CustLoanPersonalDetailscircle2">2</div>
-                <input  className='CustLoanPersonalDetailsInput2'/>
-                <div className="CustLoanPersonalDetailscircle3">3</div>
-                
             </div>
 
-
             <center>
-                <Card className="CustLoanPersonalDetailshorizontal-card" style={{ width: '900px', height: '400px' }}>
+                <Card className="horizontal-card" style={{ width: '900px', height: '350px' }}>
                     <Card.Body>
                         <div className="customerform">
-                            <Container className="CustLoanPersonalDetailsCustcontainer1">
+                            <Container className="Custcontainer1">
                                 <h5 style={{ color: "#9A00FF" }}>Personal Details</h5>
                                 <Row>
                                     <Col>
-                                        <div className="CustLoanPersonalDetailsformstyle">
-                                            <Container className="CustLoanPersonalDetailscontainer2">
+                                        <div className="formstyle">
+                                            <Container className="container2">
                                                 <Row>
                                                     <Col>
                                                         <label >Name</label>
-                                                        <input className='CustLoanPersonalDetailsformcontrol' type="text" name="Name" onChange={store} /><br />
+                                                        <input className='form-control' type="text" name="Name" onChange={store} /><br />
                                                         <label>Gender</label><br />
                                                         <label>
                                                             <input type="radio" name="gender" value="male" /> Male
@@ -57,9 +53,9 @@ function CustLoanDetails() {
                                                         <label>
                                                             <input type="radio" name="gender" value="other" /> Other
                                                         </label><br /><br /><br />
-                                                        <div className='CustLoanPersonalDetailsDate'>
-                                                            <label>Date Of Birth</label>
-                                                            <input type="date" name="date" onChange={store} className='CustLoanPersonalDetailsformcontrol' />
+                                                        <div className='customer'>
+                                                            <label>DateOfBirth</label>
+                                                            <input type="date" name="date" onChange={store} className='form-control' />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -67,23 +63,23 @@ function CustLoanDetails() {
                                         </div>
                                     </Col>
                                     <Col>
-                                        <div className="CustLoanPersonalDetailsformstyle">
-                                            <Container className="CustLoanPersonalDetailscontainer2">
+                                        <div className="formstyle">
+                                            <Container className="container2">
                                                 <Row>
                                                     <Col>
-                                                        <label>Phone Number</label><br />
-                                                        <input className='CustLoanPersonalDetailsformcontrol' type="text" name="Number" onChange={store} /><br />
+                                                        <label>PhoneNumber</label><br />
+                                                        <input className='form-control' type="text" name="Number" onChange={store} /><br />
                                                         <label >Address</label><br />
-                                                        <input className='CustLoanPersonalDetailsformcontrol' type="text" name="address" onChange={store} /><br />
-                                                        <label >Profile Picture</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='CustLoanPersonalDetailsformcontrol' />
-                                                        <div className='CustLoanPersonalDetailsIcon'>
+                                                        <input className='form-control' type="text" name="address" onChange={store} /><br />
+                                                        <label >ProfilePicture</label>
+                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
+                                                        <div className='CustIcon'>
                                                             <MdOutlineFileUpload />
                                                         </div>
                                                     </Col>
                                                     <center>
-                                                        <button id='CustLoanPersonalDetailsButton'>Continue</button>
-                                                        <div className='CustLoanPersonalDetailsArrow'>
+                                                        <button id='Cust'>Continue</button>
+                                                        <div className='CustIconArrow'>
                                                             <FaLongArrowAltRight />
                                                         </div>
                                                     </center>
@@ -98,7 +94,9 @@ function CustLoanDetails() {
                 </Card>
             </center>
         </div>
-    );
+    
+    </div>
+  )
 }
 
-export default CustLoanDetails;
+export default CustCredDetails

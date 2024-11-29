@@ -1,19 +1,17 @@
-
-    
-    .CustLoanIdentity{
+       .CustLoanIdentity{
          padding-top: 260px;
     }
-    .horizontal-card{
+    .CustLoanIdentityhorizontal-card{
         border-radius: 20px !important;
         overflow: hidden;
         background-color: #F5F2F7;
         position: relative;
     }
-    .Custcontainer1{
+    .CustIdentitycontainer1{
         border-radius: 20px !important;
     }
     
-    #Identity{
+    #CustomerLoanIdentity{
        position: relative;
        right:210px;
        top: 120px;
@@ -24,14 +22,14 @@
        color: white;
        border: none;
     }
-    .CustIconArrow{
+    .CustLoanIconArrow{
         position: absolute;
-        left:498px;
-        bottom:35px;
+        left:495px;
+        bottom:31px;
         color: white;
         
     }
-    .circle-container {
+    .CustLoanIdentitycirclecontainer {
         display: flex;
         align-items: center;
         gap: 290px; 
@@ -41,7 +39,7 @@
         align-items: start;
     }
     
-    .custLoancircle1 {
+    .custLoanIdentitycircle1 {
         width: 60px;
         height: 60px;
         background-color: #BF5DFF;
@@ -52,8 +50,10 @@
         color: white;                
         text-align: center;
         line-height: 53px;  
+        position: relative;
+        left: 50px;
     }
-    .custLoancircle2 {
+    .custLoanIdentitycircle2 {
         width: 60px;
         height: 60px;
         background-color: #BF5DFF;
@@ -63,9 +63,11 @@
         font-size: 19px;             
         color: white;                
         text-align: center;
-        line-height: 53px; 
+        line-height: 53px;  
+        position: relative;
+    right:530px;
     }
-    .custLoancircle3 {
+    .custLoanIdentitycircle3 {
         width: 60px;
         height: 60px;
         background-color: #E4D9EC;
@@ -76,39 +78,64 @@
         color: black;                
         text-align: center;
         line-height: 53px; 
+        position: relative;
+        right:1150px;
     }
-    .form-control {
-        margin-bottom: 25px; 
-        padding: 10px; 
-        border-radius: 5px; 
+    .customerLoanIdentityformcontrol {
+        width: 100%;
+        padding: 12px 15px;
+        margin-bottom: 25px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        color: #333;
+        background: #fff;
+        
     }
-    .CustIcon{
+    .CustLoanIdentityIcon{
         position: absolute;
           right: 48px; 
-          top: 278px;
+          top: 283px;
             
         }
-.CustIcon1{
+.CustLoanIdentityIcon1{
     position: absolute;
-    bottom: 293px;
+    bottom: 298px;
     left:400px
 }
-.CustIcon2{
+.CustLoanIdentityIcon2{
     position: absolute;
-    bottom: 120px;
+    bottom: 107px;
     left:400px
 }
-.CustIcon3{
+.CustLoanIdentityIcon3{
     position: absolute;
-    bottom: 405px;
+    bottom: 395px;
     left:835px
 }
-.CustIcon4{
+.CustLoanIdentityIcon4{
     position: absolute;
-    bottom: 294px;
+    bottom: 296px;
     left:835px
 }
-    
+.CustLoanIdentityInput1{
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   border-color: #BF5DFF;
+   position: relative;
+   right:240px;
+   width: 290px;
+} 
+.CustLoanIdentityInput2{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    position: relative;
+    right:820px;
+    width: 290px;
+
+}
        
     
     
