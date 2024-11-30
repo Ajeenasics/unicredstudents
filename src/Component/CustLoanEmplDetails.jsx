@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { MdOutlineFileUpload } from "react-icons/md";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import './CustomerLoanIdentity.css';
+import './CustLoanEmplDetails.css';
 
 function CustLoanEmplDetails() {
     const [form, setForm] = useState({
@@ -18,39 +17,35 @@ function CustLoanEmplDetails() {
     };
   return (
     <div>
-        <div className='CustLoanIdentity'>
-            <div className="circle-container">
-                <div className="custLoancircle1">1</div>
-                <div className="custLoancircle2">2</div>
-                <div className="custLoancircle3">3</div>
-
+        <div className='CustLoanEmplDetails'>
+        <div className="CustLoanEmplDetailscirclecontainer">
+                <div className="CustLoanEmplDetailscircle1">1</div>
+                <input className='CustLoanEmplDetailsInput1'/>
+                <div className="CustLoanEmplDetailscircle2">2</div>
+                <input  className='CustLoanEmplDetailsInput2'/>
+                <div className="CustLoanEmplDetailscircle3">3</div>
+                
             </div>
 
             <center>
-                <Card className="horizontal-card" style={{ width: '900px', height: '510px' }}>
+                <Card className="CustLoanEmplDetailshorizontalcard" style={{ width: '900px', height: '400px' }}>
                     <Card.Body>
-                        <div className="customerform">
-                            <Container className="Custcontainer1">
-                                <h5 style={{ color: "#9A00FF" }}>Identity</h5>
+                        <div className="CustLoanEmplDetailscustomerform">
+                            <Container className="CustLoanEmplDetailsCustcontainer1">
+                                <h5 style={{ color: "#9A00FF" }}>EmploymentDetails</h5>
                                 <Row>
                                     <Col>
-                                        <div className="formstyle">
-                                            <Container className="container2">
+                                        <div className="CustLoanEmplDetailsformstyle">
+                                            <Container className="CustLoanEmplDetailscontainer2">
                                                 <Row>
                                                     <Col>
-                                                        <label >PancardNUmber</label>
-                                                        <input className='form-control' type="text" name="Name" onChange={store} /><br />
-                                                        <label >PanCard</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon1'>
-                                                            <MdOutlineFileUpload />
-                                                            </div>
-                                                            <label>AadarNumber</label>
-                                                            <input type="text" name="number" onChange={store} className='form-control' />
-                                                        <label >Aadhaar</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon2'>
-                                                            <MdOutlineFileUpload /></div>
+                                                        <label >Name Of Employer</label>
+                                                        <input className='CustLoanEmplDetailsformcontrol' type="text" name="Name" onChange={store} /><br />
+                                                        <label >Work Experience</label>
+                                                        <input type="text" name="profile"  onChange={store} className='CustLoanEmplDetailsformcontrol' />
+                                                            <label>Position</label>
+                                                            <input type="text" name="number" onChange={store} className='CustLoanEmplDetailsformcontrol' />
+                                                        
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -61,25 +56,19 @@ function CustLoanEmplDetails() {
                                             <Container className="container2">
                                                 <Row>
                                                     <Col>
-                                                    <label >Voter'sId</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon3'>
-                                                            <MdOutlineFileUpload /></div><br/>
-                                                            <label >DrivingLiscence</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon4'>
-                                                            <MdOutlineFileUpload /></div>
-                                                        <label >Passport</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='form-control' />
-                                                        <div className='CustIcon'>
+                                                    <label >Employer Contact Number</label>
+                                                        <input type="text" name="profile"  onChange={store} className='CustLoanEmplDetailsformcontrol' /><br/>
+                                                            <label >Salary</label>
+                                                        <input type="text" name="profile"  onChange={store} className='CustLoanEmplDetailsformcontrol' />
+                                                        <label >Salary Slip</label>
+                                                        <input type="text" name="profile" placeholder='0' onChange={store} className='CustLoanEmplDetailsformcontrol' />
+                                                        <div className='CustLoanEmplDetailsCustIcon'>
                                                             <MdOutlineFileUpload />
                                                         </div>
                                                     </Col>
                                                     <center>
-                                                        <button>Continue</button>
-                                                        <div className='CustIconArrow'>
-                                                            <FaLongArrowAltRight />
-                                                        </div>
+                                                        <button id='Employ'>Confirm</button>
+                                                       
                                                     </center>
                                                 </Row>
                                             </Container>
