@@ -1,16 +1,16 @@
 /* Custloanapplysty.css */
 /* Customer-Loan-ApplyNow Style */
-.section2{
+.custloanapplysection2{
     background-color: #f5f2f7;
 }
-.custloanapplypt1{
+.custloanapplysection1pt1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #e7c4fe, #f3ecf8);
     padding-left: 150px;
     height: 330px;
 
 }
-.custloanapplypt2{
+.custloanapplysection2pt2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: #f5f2f7;
@@ -20,47 +20,57 @@
     margin-right: 225px;
     margin-top: 20px;
 
-
 }
-#custimg{
+#custloanapplyimg{
     padding-left: 450px;
     height: 300px;
     position:absolute;
     top:30px;
 }
-.custloanptcol1{
+.custloanapplysection1pt1col1{
     padding-left: 30px;
     font-weight: bold;
     
 }
-.custloanptcol2{
+.custloanapplysection1pt1col2{
     padding-left: 150px;
     font-weight: bold;
+    line-height: 30px;
 }
-h3{
-    color:purple;
+#custloanapplysection2pt2h3{
+    color:#9a00ff;
+    font-weight: bold;
 }
-#submitbtn{
+#custloanapplysubmitbtn{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 20px;
+    background-color: #bf5dff;
+    color:white;
+    border:none;
 }
-#loantypebox,#amtrequiredbox{
+#custloanapplytypebox,#custloanapplyamtrequiredbox{
     width: 450px;
 }
-#purposeloanbox{
+#custloanapplypurposeloanbox{
     width: 1015px;
     height:60px;
     
 }
-.formpt{
+.custloanapplysection2pt2formpt{
     padding-left: 70px;
 }
-.formborder{
+.custloanapplysection2pt2formborder{
     padding-right: 70px;
 }
-.radiobtn{
+.custloanapplysection1radiobtn{
     background-color: #e5c3fb;
     border-radius: 10px;
     color:#d18ffd;
+}
+#custloanapplysection1pt1col1p1{
+    font-size: 15px;
+}
+#custloanapplysection1pt1col1p2{
+    font-size: 25px;
 }
