@@ -17,27 +17,27 @@ function Custloanapply() {
   return (
     <div>
         {/* section1 start */}
-        <div className="section1">
-          <div className="custloanapplypt1">
+        <div className="custloanapplysection1">
+          <div className="custloanapplysection1pt1">
               <Row>
                   <Col>
-                        <div className="custloanptcol1"><br/><br/><br/><br/><br/>
-                        <p style={{fontSize:15}}>Start Your Application Today:</p>
-                        <p style={{fontSize:25}}>Easy online application with<br/>quick processing!</p>
+                        <div className="custloanapplysection1pt1col1"><br/><br/><br/><br/><br/>
+                        <p id="custloanapplysection1pt1col1p1">Start Your Application Today:</p>
+                        <p id="custloanapplysection1pt1col1p2">Easy online application with<br/>quick processing!</p>
 
                         </div>
                         
-                        <img src={customer} id="custimg"/>
+                        <img src={customer} id="custloanapplyimg"/>
 
                         
                   </Col>
                   <Col>
-                          <div className="custloanptcol2" style={{lineHeight:"30px"}}><br /><br /><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;Flexible Payment</label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;Low Interest Rates </label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;Fast Approval </label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;Customized Solutions </label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;24/7 Support </label>
+                          <div className="custloanapplysection1pt1col2"><br /><br /><br />
+                              <GoDotFill  className="custloanapplysection1radiobtn"/><label>&nbsp;Flexible Payment</label><br />
+                              <GoDotFill  className="custloanapplysection1radiobtn"/><label>&nbsp;Low Interest Rates </label><br />
+                              <GoDotFill  className="custloanapplysection1radiobtn"/><label>&nbsp;Fast Approval </label><br />
+                              <GoDotFill  className="custloanapplysection1radiobtn"/><label>&nbsp;Customized Solutions </label><br />
+                              <GoDotFill  className="custloanapplysection1radiobtn"/><label>&nbsp;24/7 Support </label>
                           </div>
 
                   </Col>
@@ -48,16 +48,16 @@ function Custloanapply() {
         {/* section1 end */}
 
         {/* section2 start */}
-        <div className="section2"><br/><br/>
-            <div className="custloanapplypt2"><br/><br/>
-                <center><h3 style={{color:"#9a00ff",fontWeight:"bold"}}>Apply Now</h3></center>
+        <div className="custloanapplysection2"><br/><br/>
+            <div className="custloanapplysection2pt2"><br/><br/>
+                <center><h3 id="custloanapplysection2pt2h3">Apply Now</h3></center>
                 <br/><br/>
-                <div className="formborder">
-                  <div className="formpt">
+                <div className="custloanapplysection2pt2formborder">
+                  <div className="custloanapplysection2pt2formpt">
                       <Form>
                           <Row>
                               <Col>
-                                  <Form.Group className="mb-3" controlId="formBasicText" id="loantypebox">
+                                  <Form.Group className="mb-3" controlId="formBasicText" id="custloanapplytypebox">
                                       <Form.Label>Loan Type</Form.Label>
                                       <Form.Select defaultValue="">
                                           <option value="" disabled>
@@ -67,7 +67,7 @@ function Custloanapply() {
                                   </Form.Group>
                               </Col>
                               <Col>
-                                  <Form.Group className="mb-3" controlId="formBasicText" id="amtrequiredbox">
+                                  <Form.Group className="mb-3" controlId="formBasicText" id="custloanapplyamtrequiredbox">
                                       <Form.Label>Amount Required</Form.Label>
                                       <Form.Control type="text" placeholder="Rs.0/-" />
                                   </Form.Group>
@@ -75,14 +75,14 @@ function Custloanapply() {
                               </Col>
                           </Row>
                           <Row>
-                              <Form.Group className="mb-3" controlId="formBasicText" id="purposeloanbox">
+                              <Form.Group className="mb-3" controlId="formBasicText" id="custloanapplypurposeloanbox">
                                   <Form.Label>Purpose Of Loan</Form.Label>
-                                  <Form.Control as="textarea" aria-label="With textarea" placeholder="Description" style={{padding:"10px"}}/>
+                                  <Form.Control as="textarea" aria-label="With textarea" placeholder="Description"/>
                               </Form.Group>
 
                           </Row><br/><br/><br/>
                           <center>
-                          <Button type="submit" style={{backgroundColor:"#bf5dff",color:"white",border:"none"}} id="submitbtn">
+                          <Button type="submit" id="custloanapplysubmitbtn">
                           Next &nbsp;<FaArrowRightLong />
                           </Button>
                           </center><br/><br/>

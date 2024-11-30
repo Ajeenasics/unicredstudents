@@ -1,16 +1,16 @@
 /* Custloanapplystatsty.css */
 /* Customer-Loan-ApplyNow-ApplicationStatus Style */
-.section2,.section3{
+.custloanapplystatsect2,.custloanapplystatsect3{
     background-color: #f5f2f7;
 }
-.custloanapplypt1{
+.custloanapplystatsect1pt1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #e7c4fe, #f3ecf8);
     padding-left: 150px;
     height: 330px;
 
 }
-.custloanapplypt3{
+.custloanapplystatsect3pt3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: #f5f2f7;
@@ -20,68 +20,78 @@
     margin-right: 225px;
     margin-top: 20px;
 
-
 }
-#custimg{
+#custloanapplystatimg{
     padding-left: 450px;
     height: 300px;
     position:absolute;
     top:30px;
 }
-.custloanptcol1{
+.custloanapplystatsect1pt1col1{
     padding-left: 30px;
     font-weight: bold;
     
 }
-.custloanptcol2{
+.custloanapplystatsect1pt1col2{
     padding-left: 150px;
     font-weight: bold;
+    line-height: 30px;
 }
-h3{
-    color:purple;
-}
-#applybtn1{
+#custloanapplystatapplybtn1{
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 30px;
+    background-color:#bf5dff;
+    color:white;
+    border:none
 }
-#submitbtn2{
+#custloanapplystatsect3submitbtn2{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 20px;
+    background-color:#bf5dff;
+    color:white;
+    border:none;
 }
-#loantypebox,#amtrequiredbox{
+#custloanapplystatsect3loantypebox,#custloanapplystatsect3amtrequiredbox{
     width: 450px;
 }
-#purposeloanbox{
+#custloanapplystatsect3purposeloanbox{
     width: 1015px;
     height:60px;
     
 }
-.formpt2{
+.custloanapplystatsect3pt3formpt2{
     padding-left: 70px;
 }
-.formborder2{
+.custloanapplystatsect3pt3formborder2{
     padding-right: 70px;
 }
-.radiobtn{
+.custloanapplystatradiobtn{
     background-color: #e5c3fb;
     border-radius: 10px;
     color:#d18ffd;
 }
-.datalabel{
+.custloanapplystatsect2pt2thlabel{
     font-size: 15px;
     font-weight: 1px;
     color:#6e6e6e;
 }
-.data{
+.custloanapplystatsect2pt2tddata{
     font-weight:600;
     font-size: 20px;
 }
-/* .section2{
-    background-color: #f5f2f7;
-} */
-.custloanapplypt2{
+.custloanapplystatsect2pt2thonerow{
+    -ms-grid-row-span: 2;
+}
+#custloanapplystatsect2pt2thonerowlabel1{
+    color: #bf5dff;
+}
+#custloanapplystatsect2pt2thonerowlabel2{
+    color: #bf5dff;
+    text-decoration: underline;
+}
+.custloanapplystatsect2pt2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: #f5f2f7;
@@ -91,18 +101,24 @@ h3{
     margin-right: 180px;
     margin-top: 20px;
 
-
 }
-.formpt1{
+#custloanapplystatsect2h3,#custloanapplystatsect3h3{
+    color:#9a00ff;
+    font-weight:bold;
+}
+.custloanapplystatsect2pt2formpt1{
     padding-left: 40px;
 } 
-.formborder1{
+.custloanapplystatsect2pt2formborder1{
     padding-right: 40px;
 }
-table{
-    width: 100%;
-}
-th,td{
+.custloanapplystatsect2pt2th,.custloanapplystatsect2pt2td,.custloanapplystatsect2pt2thonerow{
     padding-left: 20px;
     column-width: 180px;
+}
+#custloanapplystatsect1pt1col1p1{
+    font-size: 15px;
+}
+#custloanapplystatsect1pt1col1p2{
+    font-size: 25px;
 }

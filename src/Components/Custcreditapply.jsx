@@ -12,27 +12,27 @@ function Custcreditapply() {
   return (
     <div>
         {/* section1 start */}
-        <div className="section1">
-          <div className="custcreditapplypt1">
+        <div className="custcreditapplysection1">
+          <div className="custcreditapplysection1pt1">
               <Row>
                   <Col>
-                        <div className="custcreditptcol1"><br/><br/><br/><br/>
-                        <p style={{fontSize:15}}>Start Your Application Today:</p>
-                        <p style={{fontSize:25}}>Easy online application with<br/>quick processing!</p>
+                        <div className="custcreditapplysection1pt1col1"><br/><br/><br/><br/>
+                        <p id="custcreditapplysection1pt1col1p1">Start Your Application Today:</p>
+                        <p id="custcreditapplysection1pt1col1p2">Easy online application with<br/>quick processing!</p>
 
                         </div>
                         
-                        <img src={creditcardgirl} id="creditimg"/>
+                        <img src={creditcardgirl} id="custcreditapplyimg"/>
 
                         
                   </Col>
                   <Col>
-                          <div className="custcreditptcol2" style={{lineHeight:"35px"}}><br /><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;&nbsp;Earn rewards on every spend</label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;&nbsp;Save with cashback on daily purchases </label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;&nbsp;Affordable rates on outstanding balances </label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;&nbsp;Adjust limits to match your spending needs </label><br />
-                              <GoDotFill  className="radiobtn"/><label>&nbsp;&nbsp;Secure transactions with real-time alerts </label>
+                          <div className="custcreditapplysection1pt1col2"><br /><br />
+                              <GoDotFill  className="custcreditapplyradiobtn"/><label>&nbsp;&nbsp;Earn rewards on every spend</label><br />
+                              <GoDotFill  className="custcreditapplyradiobtn"/><label>&nbsp;&nbsp;Save with cashback on daily purchases </label><br />
+                              <GoDotFill  className="custcreditapplyradiobtn"/><label>&nbsp;&nbsp;Affordable rates on outstanding balances </label><br />
+                              <GoDotFill  className="custcreditapplyradiobtn"/><label>&nbsp;&nbsp;Adjust limits to match your spending needs </label><br />
+                              <GoDotFill  className="custcreditapplyradiobtn"/><label>&nbsp;&nbsp;Secure transactions with real-time alerts </label>
                           </div>
 
                   </Col>
@@ -43,17 +43,17 @@ function Custcreditapply() {
         {/* section1 end */}
 
         {/* section2 start */}
-        <div className="section2"><br/><br/>
-            <div className="custcreditapplypt2" style={{border:"none"}}><br/>
+        <div className="custcreditapplysection2"><br/><br/>
+            <div className="custcreditapplysection2pt2"><br/>
                 <center>
                     <h4>CREDIT CARD</h4><br/><br/>
-                    <h3 style={{color:"#9a00ff",fontWeight:"bold"}}>"Empower Your Spending with the Perfect Card!"</h3></center>
+                    <h3 id="custcreditapplysection2h3">"Empower Your Spending with the Perfect Card!"</h3></center>
                 <br/>
-                <div className="section2details">
+                <div className="custcreditapplysection2details">
                           <p>Unlock exclusive rewards, cashback, and unbeatable benefits tailored to your lifestyle. Enjoy secure and convenient transactions worldwide with our diverse range of credit cards. Whether it’s shopping, travel, or everyday expenses, find the card that matches your needs perfectly.</p>
                           <br/><br/>
                           <center>
-                          <Button type="submit" style={{backgroundColor:"#bf5dff",color:"white",border:"none"}} id="applybtn">
+                          <Button type="submit" id="custcreditapplyapplybtn">
                           Apply Now &nbsp;<FaArrowRightLong />
                           </Button>
                           </center><br/><br/>
