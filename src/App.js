@@ -1,6 +1,6 @@
 
 import './App.css';
-// import CustLoanDetails from './Component/CustLoanDetails';
+import CustLoanDetails from './Component/CustLoanDetails';
 // import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
 // import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 // import CustCredDetails from './Component/CustCredDetails';
