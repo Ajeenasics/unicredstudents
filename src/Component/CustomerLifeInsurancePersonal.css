@@ -1,0 +1,134 @@
+.CustomerLifeInsurancePersonal{
+    padding-top: 260px;
+}
+.CustomerLifeInsurancePersonalIcon{
+    position: absolute;
+      right: 48px; 
+      top: 280px;
+        
+    }
+    .CustomerLifeInsurancePersonalDate{
+        
+            position: relative;
+            top: -10px;
+            margin-bottom: 5px;
+        
+        
+    }
+    .CustomerLifeInsurancePersonalDetails{
+         padding-top: 260px;
+    }
+    .CustomerLifeInsurancePersonalhorizontal-card{
+        border-radius: 20px !important;
+        overflow: hidden;
+        background-color: #F5F2F7;
+        position: relative;
+    }
+    .CustomerLifeInsurancePersonalcontainer1{
+        border-radius: 20px !important;
+    }
+    
+    #CustomerLifeInsurancePersonalButton{
+       position: relative;
+       right:210px;
+       /* top: 15px; */
+       width: auto;
+       padding: 0px 38px 3px;
+       border-radius: 20px!important;
+       background-color: #BF5DFF;
+       color: white;
+       border: none;
+    }
+    .CustomerLifeInsurancePersonalArrow{
+        position: absolute;
+        left:496px;
+        bottom:42px;
+        color: white;
+        
+    }
+    .CustomerLifeInsurancePersonalcirclecontainer {
+        display: flex;
+        align-items: center;
+        gap: 290px; 
+        position: absolute;
+        margin-top: -115px;
+        left: 190px;
+        align-items: start;
+    }
+    
+    .CustomerLifeInsurancePersonalcircle1 {
+        width: 60px;
+        height: 60px;
+        background-color: #BF5DFF;
+        border-radius: 50%;
+        justify-content: center;    
+        align-items: center;         
+        font-size: 19px;             
+        color: white;                
+        text-align: center;
+        line-height: 53px;  
+        position: relative;
+        left: 50px;
+    }
+    .CustomerLifeInsurancePersonalcircle2 {
+        width: 60px;
+        height: 60px;
+        background-color: #E4D9EC;
+        border-radius: 50%;
+        justify-content: center;    
+        align-items: center;         
+        font-size: 19px;             
+        color: black;                
+        text-align: center;
+        line-height: 53px; 
+        position: relative;
+        right:530px;
+    }
+    .CustomerLifeInsurancePersonalcircle3 {
+        width: 60px;
+        height: 60px;
+        background-color: #E4D9EC;
+        border-radius: 50%;
+        justify-content: center;    
+        align-items: center;         
+        font-size: 19px;             
+        color: black;                
+        text-align: center;
+        line-height: 53px; 
+        position: relative;
+        right:1150px;
+    }
+    .CustomerLifeInsurancePersonalformcontrol{
+        width: 100%;
+        padding: 12px 15px;
+        margin-bottom: 25px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        color: #333;
+        background: #fff;
+    }
+    .CustomerLifeInsurancePersonalInput1{
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        position: relative;
+        right:240px;
+        width: 290px;
+        border-color: #ccc;
+     } 
+     .CustomerLifeInsurancePersonalInput2{
+         border-top: 0px;
+         border-left: 0px;
+         border-right: 0px;
+         position: relative;
+         right:820px;
+         width: 290px;
+         border-color: #ccc;
+
+     }
+    
+    
+    
+    
+    
