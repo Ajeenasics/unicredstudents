@@ -1,7 +1,4 @@
-
 import './App.css';
-
-
 import ClerkMngLoan from './ComponentClerk/ClerkMngLoan';
 import ClerkMngLoanVerf from './ComponentClerk/ClerkMngLoanVerf';
 import ClerkMngCreditCrd from './ComponentClerk/ClerkMngCreditCrd';
@@ -14,7 +11,6 @@ import ClerkMngTrans from './ComponentClerk/ClerkMngTrans';
 import ClerkMngTransVerf from './ComponentClerk/ClerkMngTransVerf';
 import ClerkViewUsers from './ComponentClerk/ClerkViewUsers';
 import ClerkUserTransHistr from './ComponentClerk/ClerkUserTransHistr';
-
 import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 import ManagerDashboard from './Components/Manager/ManagerDashboard';
 import CustLoanDetails from './Component/CustLoanDetails';
@@ -29,8 +25,6 @@ import CustLoanDetails from './Component/CustLoanDetails';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Custloanappdetail from './Componentcust/Custloanappdetail';
 import Custcreditcarddetails from './Componentcust/Custcreditcarddetails';
-
-
 // import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
 import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 // import CustCredDetails from './Component/CustCredDetails';
@@ -39,8 +33,7 @@ import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 import CustomerLifeInsurancePolicyNominee from './Component/CustomerLifeInsurancePolicyNominee';
 function App() {
   return (
-    
-    <BrowserRouter>
+  <BrowserRouter>
     <Routes>
       <Route path='/Custloanappdetail' element={<Custloanappdetail/>}/>
       <Route path='/creditcard' element={<Custcreditcarddetails/>}/>
@@ -53,7 +46,6 @@ function App() {
       <Route path='/Custcreditapply' element={<Custcreditapply/>}/>
       <Route path='/Custcreditapplystatus' element={<Custcreditapplystatus/>}/>
       <Route path='/CustLoanEmplDetails' element={<CustLoanEmplDetails/>}/>
-
       <Route path='/ClerkMngLoan' element={<ClerkMngLoan/>}/>
       <Route path='/ClerkMngLoanVerf' element={<ClerkMngLoanVerf/>}/>
       <Route path='/ClerkMngCreditCrd' element={<ClerkMngCreditCrd/>}/>
@@ -66,38 +58,9 @@ function App() {
             <Route path='/ClerkMngTransVerf' element={<ClerkMngTransVerf/>}/>
             <Route path='/ClerkViewUsers' element={<ClerkViewUsers/>}/>
             <Route path='/ClerkUserTransHistr' element={<ClerkUserTransHistr/>}/>
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-    </Routes>
+            </Routes>
      </BrowserRouter>
-    
-
-
-
-
-
-
-
-
-
-      
-
-
-    
-  );
+    );
 }
 
 export default App;
