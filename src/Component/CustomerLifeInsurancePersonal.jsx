@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { MdOutlineFileUpload } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import './CustLoanDetails.css';
-
-function CustLoanDetails() {
+import './CustomerLifeInsurancePersonal.css';
+function CustomerLifeInsurancePersonal() {
     const [form, setForm] = useState({
         Email: "",
         Contact: "",
@@ -16,37 +15,33 @@ function CustLoanDetails() {
     const store = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
     };
-
-    const update = (e) => {
-        console.log(form);
-    };
-
-    return (
-        <div className='CustLoanPersonalDetails'>
-            <div className="CustLoanPersonalDetailscirclecontainer">
-                <div className="CustLoanPersonalDetailscircle1">1</div>
-                <input className='CustLoanPersonalDetailsInput1'/>
-                <div className="CustLoanPersonalDetailscircle2">2</div>
-                <input  className='CustLoanPersonalDetailsInput2'/>
-                <div className="CustLoanPersonalDetailscircle3">3</div>
+  return (
+    <div>
+         <div className='CustomerLifeInsurancePersonal'>
+            <div className="CustomerLifeInsurancePersonalcirclecontainer">
+                <div className="CustomerLifeInsurancePersonalcircle1">1</div>
+                <input className='CustomerLifeInsurancePersonalInput1'/>
+                <div className="CustomerLifeInsurancePersonalcircle2">2</div>
+                <input  className='CustomerLifeInsurancePersonalInput2'/>
+                <div className="CustomerLifeInsurancePersonalcircle3">3</div>
                 
             </div>
 
 
             <center>
-                <Card className="CustLoanPersonalDetailshorizontal-card" style={{ width: '900px', height: '400px' }}>
+                <Card className="CustomerLifeInsurancePersonalhorizontal-card" style={{ width: '900px', height: '400px' }}>
                     <Card.Body>
-                        <div className="customerform">
-                            <Container className="CustLoanPersonalDetailsCustcontainer1">
+                        <div className="CustomerLifeInsurancePersonalform">
+                            <Container className="CustomerLifeInsurancePersonalcontainer1">
                                 <h5 style={{ color: "#9A00FF" }}>Personal Details</h5>
                                 <Row>
                                     <Col>
-                                        <div className="CustLoanPersonalDetailsformstyle">
-                                            <Container className="CustLoanPersonalDetailscontainer2">
+                                        <div className="CustomerLifeInsurancePersonalformstyle">
+                                            <Container className="CustomerLifeInsurancePersonalcontainer2">
                                                 <Row>
                                                     <Col>
                                                         <label >Name</label>
-                                                        <input className='CustLoanPersonalDetailsformcontrol' type="text" name="Name" onChange={store} /><br />
+                                                        <input className='CustomerLifeInsurancePersonalformcontrol' type="text" name="Name" onChange={store} /><br />
                                                         <label>Gender</label><br />
                                                         <label>
                                                             <input type="radio" name="gender" value="male" /> Male
@@ -57,9 +52,9 @@ function CustLoanDetails() {
                                                         <label>
                                                             <input type="radio" name="gender" value="other" /> Other
                                                         </label><br /><br /><br />
-                                                        <div className='CustLoanPersonalDetailsDate'>
+                                                        <div className='CustomerLifeInsurancePersonalDate'>
                                                             <label>Date Of Birth</label>
-                                                            <input type="date" name="date" onChange={store} className='CustLoanPersonalDetailsformcontrol' />
+                                                            <input type="date" name="date" onChange={store} className='CustomerLifeInsurancePersonalformcontrol' />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -67,23 +62,23 @@ function CustLoanDetails() {
                                         </div>
                                     </Col>
                                     <Col>
-                                        <div className="CustLoanPersonalDetailsformstyle">
-                                            <Container className="CustLoanPersonalDetailscontainer2">
+                                        <div className="CustomerLifeInsurancePersonalformstyle">
+                                            <Container className="CustomerLifeInsurancePersonalcontainer2">
                                                 <Row>
                                                     <Col>
-                                                        <label>Phone Number</label><br />
-                                                        <input className='CustLoanPersonalDetailsformcontrol' type="text" name="Number" onChange={store} /><br />
+                                                        <label>Contact Number</label><br />
+                                                        <input className='CustomerLifeInsurancePersonalformcontrol' type="text" name="Number" onChange={store} /><br />
                                                         <label >Address</label><br />
-                                                        <input className='CustLoanPersonalDetailsformcontrol' type="text" name="address" onChange={store} /><br />
+                                                        <input className='CustomerLifeInsurancePersonalformcontrol' type="text" name="address" onChange={store} /><br />
                                                         <label >Profile Picture</label>
-                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='CustLoanPersonalDetailsformcontrol' />
-                                                        <div className='CustLoanPersonalDetailsIcon'>
+                                                        <input type="text" name="profile" placeholder='Upload File' onChange={store} className='CustomerLifeInsurancePersonalformcontrol' />
+                                                        <div className='CustomerLifeInsurancePersonalIcon'>
                                                             <MdOutlineFileUpload />
                                                         </div>
                                                     </Col>
                                                     <center>
-                                                        <button id='CustLoanPersonalDetailsButton'>Continue</button>
-                                                        <div className='CustLoanPersonalDetailsArrow'>
+                                                        <button id='CustomerLifeInsurancePersonalButton'>Continue</button>
+                                                        <div className='CustomerLifeInsurancePersonalArrow'>
                                                             <FaLongArrowAltRight />
                                                         </div>
                                                     </center>
@@ -98,7 +93,9 @@ function CustLoanDetails() {
                 </Card>
             </center>
         </div>
-    );
+
+    </div>
+  )
 }
 
-export default CustLoanDetails;
+export default CustomerLifeInsurancePersonal
