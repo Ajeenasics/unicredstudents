@@ -1,47 +1,59 @@
-.section2{
+.custcreditapplysection2{
     background-color: #F5F2F7;
 }
-.custcreditapplypt1{
+.custcreditapplysection1pt1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #e7c4fe, #f3ecf8);
     padding-left: 150px;
     height: 330px;
 
 }
-.custcreditapplypt2{
+.custcreditapplysection2pt2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    border: none;
     background-color: #f5f2f7;
     margin-left: 255px;
     margin-right: 255px;
     margin-top: 20px;
 }
-#creditimg{
+#custcreditapplyimg{
     padding-left: 450px;
     height: 300px;
     position:absolute;
     top:30px;
 }
-.custcreditptcol1{
+.custcreditapplysection1pt1col1{
     padding-left: 30px;
     font-weight: bold;
     
 }
-.custcreditptcol2{
+.custcreditapplysection1pt1col2{
     padding-left: 150px;
     font-weight: bold;
+    line-height: 35px;
 }
-h3{
-    color:purple;
-}
-#applybtn{
+#custcreditapplyapplybtn{
     font-size: 18px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 20px;
+    background-color:#bf5dff;
+    color:white;
+    border:none;
 }
-.radiobtn{
+.custcreditapplyradiobtn{
     background-color: #e5c3fb;
     border-radius: 10px;
     color:#d18ffd;
+}
+#custcreditapplysection1pt1col1p1{
+    font-size: 15px;
+}
+#custcreditapplysection1pt1col1p2{
+    font-size: 25px;
+}
+#custcreditapplysection2h3{
+    color:#9a00ff;
+    font-weight: bold;
 }

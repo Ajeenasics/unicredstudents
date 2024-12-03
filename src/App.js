@@ -2,33 +2,70 @@
 import './App.css';
 import ClerkDashboard from './Components/Clerk/ClerkDashboard';
 import ManagerDashboard from './Components/Manager/ManagerDashboard';
-
-//import Custcreditapply from './Components/Custcreditapply';
-//import Custcreditapplystatus from './Components/Custcreditapplystatus';
-// import Custloanapply from './Components/Custloanapply';
-// import Custloanapplystatus from './Components/Custloanapplystatus';
-// import CustLoanDetails from './Component/CustLoanDetails';
+import CustLoanDetails from './Component/CustLoanDetails';
+import Custcreditapply from './Components/Custcreditapply';
+import Custcreditapplystatus from './Components/Custcreditapplystatus';
+import Custloanapply from './Components/Custloanapply';
+import Custloanapplystatus from './Components/Custloanapplystatus';
+import CustLoanDetails from './Component/CustLoanDetails';
+import CustLoanDetails from './Component/CustLoanDetails';
 // import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
 // import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import Custloanappdetail from './Componentcust/Custloanappdetail';
+import Custcreditcarddetails from './Componentcust/Custcreditcarddetails';
 
 
+// import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
+import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
+// import CustCredDetails from './Component/CustCredDetails';
+// import CustomerCredCardDetails from './Component/CustomerCredCardDetails';
+// import CustomerLifeInsurancePersonal from './Component/CustomerLifeInsurancePersonal';
+import CustomerLifeInsurancePolicyNominee from './Component/CustomerLifeInsurancePolicyNominee';
 function App() {
   return (
-    <div>
+    
+    <BrowserRouter>
+    <Routes>
+      <Route path='/Custloanappdetail' element={<Custloanappdetail/>}/>
+      <Route path='/creditcard' element={<Custcreditcarddetails/>}/>
+      <Route path='/clerkdashboard' element={<ClerkDashboard/>}/>
+      <Route path='/managerdashboard' element={<ManagerDashboard/>}/>
+      <Route path='/CustomerLifeInsurancePolicyNominee' element={<CustomerLifeInsurancePolicyNominee/>}/>
+      <Route path='/CustLoanDetails' element={<CustLoanDetails/>}/>
+      <Route path='/Custloanapply' element={<Custloanapply/>}/>
+      <Route path='/Custloanapplystatus' element={<Custloanapplystatus/>}/>
+      <Route path='/Custcreditapply' element={<Custcreditapply/>}/>
+      <Route path='/Custcreditapplystatus' element={<Custcreditapplystatus/>}/>
+      <Route path='/CustLoanEmplDetails' element={<CustLoanEmplDetails/>}/>
 
 
-      {/* <Custloanapply/> */}
-      {/* <Custloanapplystatus/> */}
-      {/* <Custcreditapply/> */}
-      {/* <Custcreditapplystatus/> */}
-
-      {/* <CustLoanEmplDetails/> */}
 
 
-      <ClerkDashboard/>
-      <ManagerDashboard/>
 
-    </div>
+
+      
+
+
+
+
+
+    </Routes>
+     </BrowserRouter>
+    
+
+
+
+
+
+
+
+
+
+      
+
+
+    
   );
 }
 
