@@ -1,0 +1,74 @@
+.clerk-mng-style{
+    background-color: #f5f2f7;
+}
+.mng-clerk-header {
+    margin-left: 25px;
+}
+
+.mng-clerk-head {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin: 0;
+}
+
+#mng-clerk-head1 {
+    color: #a112ff;
+}
+
+.mng-clerk-btn {
+    border-radius: 50px;
+    padding: 6px 50px;
+    margin-left: 10px;
+}
+
+#mng-clerk-btn1 {
+    color: white;
+    border-color: #bf5dff;
+    background-color: #bf5dff;
+    border-width: 0.1px;
+    width: 250px;
+    
+}
+
+#mng-clerk-btn2 {
+    background-color: white;
+    color: #bf5dff;
+    border-color: #bf5dff;
+    border-width: 0.1px;
+    width: 250px;
+    background-color: transparent;
+}
+
+.mng-clerk-body {
+    margin-left: 25px;
+}
+
+#mng-clerk-viewr {
+    font-weight: 500;
+}
+
+#mng-clerk-search {
+    margin-left: 1100px;
+    border-radius: 50px;
+    padding: 5px 15px;
+    border-width: 0.1px;
+    width: 230px;
+    background-color: transparent;
+}
+
+#mng-clerk-tableh {
+    background-color: #bf5dff;
+    color: white;
+}
+
+.mng-clerk-table {
+    color: black;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 4%;
+
+}
