@@ -1,27 +1,19 @@
 
 import './App.css';
-import ClerkDashboard from './Components/Clerk/ClerkDashboard';
-import ManagerDashboard from './Components/Manager/ManagerDashboard';
-import CustLoanDetails from './Component/CustLoanDetails';
-import Custcreditapply from './Components/Custcreditapply';
-import Custcreditapplystatus from './Components/Custcreditapplystatus';
-import Custloanapply from './Components/Custloanapply';
-import Custloanapplystatus from './Components/Custloanapplystatus';
-import CustLoanDetails from './Component/CustLoanDetails';
-import CustLoanDetails from './Component/CustLoanDetails';
-// import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
-// import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Custloanappdetail from './Componentcust/Custloanappdetail';
 import Custcreditcarddetails from './Componentcust/Custcreditcarddetails';
-
-
-// import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
-import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
-// import CustCredDetails from './Component/CustCredDetails';
-// import CustomerCredCardDetails from './Component/CustomerCredCardDetails';
-// import CustomerLifeInsurancePersonal from './Component/CustomerLifeInsurancePersonal';
+import ClerkDashboard from './Components/Clerk/ClerkDashboard';
+import ManagerDashboard from './Components/Manager/ManagerDashboard';
 import CustomerLifeInsurancePolicyNominee from './Component/CustomerLifeInsurancePolicyNominee';
+import CustLoanDetails from './Component/CustLoanDetails';
+import Custloanapply from './Components/Custloanapply';
+import Custloanapplystatus from './Components/Custloanapplystatus';
+import Custcreditapply from './Components/Custcreditapply';
+import Custcreditapplystatus from './Components/Custcreditapplystatus';
+import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
+
+
 function App() {
   return (
     
