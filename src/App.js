@@ -10,11 +10,14 @@ import CustLoanDetails from './Component/CustLoanDetails';
 import CustLoanDetails from './Component/CustLoanDetails';
 import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
 import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Custloanappdetail from './Componentcust/Custloanappdetail';
 import Custcreditcarddetails from './Componentcust/Custcreditcarddetails';
 import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
 import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
+
+// import CustomerLoanIdentity from './Component/CustomerLoanIdentity';
+// import CustLoanEmplDetails from './Component/CustLoanEmplDetails';
 
 function App() {
   return (
